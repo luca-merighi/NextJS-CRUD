@@ -10,7 +10,7 @@ export default class Client {
     }
 
     static emptyClient() {
-        return new Client(0, '')
+        return new Client('', 0, '')
     }
 
     get id() {
