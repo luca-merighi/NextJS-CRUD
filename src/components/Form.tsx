@@ -10,7 +10,7 @@ interface FormProps {
 }
 
 export default function Form(props: FormProps) {
-    const id = props.client?.id ?? false
+    const id = props.client?.id ?? null
     const [name, setName] = useState(props.client?.name ?? '')
     const [age, setAge] = useState(props.client?.age ?? 0)
     
